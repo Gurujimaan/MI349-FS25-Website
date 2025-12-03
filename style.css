@@ -5,7 +5,7 @@ body{
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: flex-start; 
     padding:20px;
     width: 100%;
 }
@@ -15,34 +15,36 @@ header {
     width: auto;  
 }
 
-nav {
+.nav-wrapper {
+    position: relative;
+    height: 100px;
     display: flex;
-    gap: 30px;         
+    align-items: center;
 }
 
-nav a {
+.NavBackground {
+    height: 100px;
+    width: 1500px;
+    position: absolute;
+    top: 0;
+    left:30px;
+    z-index: 1;       
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;          
+    display: flex;
+    gap: 129px;
+    padding: 0 30px;
+}
+
+.navbar a {
     text-decoration: none;
     font-family: 'MuseoModerno', sans-serif;
     font-size: 28px;
     font-weight: 600;
-    padding: 10px 25px;
     color: white;
-
-    border-radius: 30px;
 }
-
-ul {
-    display: flex;
-    margin: 0;
-    overflow: hidden;
-    list-style-type: none;
-}
-
-ul li {
-    float: left;
-    padding-right: 20px;
-    margin-left: 0px;
-}
-
 
 
