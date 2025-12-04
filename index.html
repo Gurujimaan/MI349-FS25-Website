@@ -9,6 +9,18 @@
         
         <link rel="stylesheet" href="style.css">
 
+        <style>
+            .NavBackground {
+                content: url('Images/NavLongHome.png');
+            }
+            
+            @media (max-width: 768px){
+                .NavBackground{
+                    content:url('Images/NavHome.png');
+                }
+            }
+        </style>
+
         <title>Website</title>
     </head>
     <body>
@@ -18,10 +30,10 @@
             <div class="nav-wrapper">
                 <img class="NavBackground" src="Images/NavLongHome.png">
                 <nav class="navbar">
-                    <a href="index.html">Home</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
+                    <a class="HomeButton" href="index.html">Home</a>
+                    <a class="ProjectsButtons" href="projects.html">Projects</a>
+                    <a class="AboutButton" href="about.html">About</a>
+                    <a class="ContactButton" href="contact.html">Contact</a>
                 </nav>
             </div>
         </header>
