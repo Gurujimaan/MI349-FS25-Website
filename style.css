@@ -98,9 +98,47 @@ h1 {
     background-color: #246EB9;
 }
 
-.Clickable{
+.HomeData{
+    padding:30px;
+    width:90%;
+    display:flex;
+    justify-content: center;  
+    gap: 50px;
+}
+
+.HomeData img{
+    padding-left:40px;
+    height:480px;
+    width:auto;
     border-radius: 0px;
+}
+
+.Clickable{
     cursor:pointer;
+}
+
+.Developments{
+    height: 480px;     
+    width: 800px;
+    background-color:#63D0C3;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;   
+    align-items: left;      
+    gap: 20px; 
+}
+
+.Developments h1{
+    padding-left:15px;
+    text-decoration:underline;
+    color:#2C2E2E
+}
+
+.Latest{
+    width:80%;
+    height:fit-content;
+    background-color: #2C2e2e;
+    border-radius:10px;
 }
 
 body{
@@ -173,6 +211,28 @@ html, body {
 
     .Bar2{
         height:5px;
+    }
+
+    .HomeData{
+        padding:20px;
+        padding-left:0px;
+        width:100%;
+        gap:20px;
+    }
+
+    .HomeData img{
+        padding-left:0px;
+        height:300px;
+        width:auto;
+    }
+
+    .Developments{
+        height:300px;
+        width:250px;
+    }
+
+    .Developments h1{
+        padding-left:10px;
     }
 }
 
