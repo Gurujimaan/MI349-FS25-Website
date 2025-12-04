@@ -180,7 +180,7 @@ p{
 
 .me1{
     position:absolute;
-    top: 275px;
+    top: 225px;
     left: 950px;
     height:400px;
     width:auto;
@@ -188,20 +188,30 @@ p{
 
 .me2{
     position:absolute;
-    top: 425px;
-    left: 1400px;
-    height:200px;
+    top: 380px;
+    left: 1375px;
+    height:170px;
     width:auto;
+    z-index:2;
 }
 
 .me3{
     position:absolute;
-    top: 425px;
-    left: 1400px;
-    height:200px;
+    top: 510px;
+    left: 1260px;
+    height:250px;
     width:auto;
+    z-index:1;
 }
 
+.me4{
+    position:absolute;
+    top: 700px;
+    left: 1130px;
+    width: 180px;
+    height: 220px;
+    overflow: hidden;
+}
 
 body{
     background-color: #2C2e2e;
@@ -321,6 +331,32 @@ html, body {
 
     .Personal h3{
         font-size: 14px;
+    }
+
+    .me1{
+        top:200px;
+        left:350px;
+        height:160px;
+    }
+
+    .me2{
+        top:150px;
+        left:490px;
+        height:100px;
+    }
+
+    .me3{
+        top:320px;
+        left:450px;
+        height:130px;
+        z-index:1;
+    }
+
+    .me4{
+        top:420px;
+        left:390px;
+        width:90px;
+        height:110px;
     }
 }
 
