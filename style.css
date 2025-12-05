@@ -278,7 +278,121 @@ p{
     color:#2C2E2E;
 }
 
+.Heading{
+    font-size:56px;
+    font-weight:1000px;
+    text-align:center;
+    margin:0;
+}
 
+.Linkedin{
+    color:#246EB9;
+    font-size:36px;
+    font-weight: bold;
+}
+
+.Contacting h2, .Contacting h3{
+    margin: 0; 
+}
+
+.Contacting{
+    margin:10 40px;
+}
+
+.Contacting a{
+    text-decoration: none;
+    width:fit-content;
+}
+
+.Contacting h3{
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.myForm{
+    background-color: #058ED9;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.Contacting p{
+    font-size: 20px;
+    padding-left:10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800px;
+    margin-top:10px;
+}
+
+input[type="text"] {
+    width: 60%;
+    height:30px;
+    font-size: 20px;
+    border-radius: 0px;
+    border-width:0px;
+    background-color:#246EB9;
+}
+
+input[type="email"] {
+    width: 60%;
+    height:30px;
+    font-size: 20px;
+    border-radius: 0px;
+    border-width:0px;
+    background-color:#246EB9;
+}
+
+select{
+    background-color: #246EB9;
+    color: #fff;
+    width: 60%;
+    height:30px;
+    font-family: inherit;
+    font-size: 20px;
+    border-radius: 0px;
+    border-width:0px;
+}
+
+option{
+    font-size: 20px;
+    height:30px;
+    font-family: "Inter", sans-serif;
+    border-radius: 0px;
+    border-width:0px;
+}
+
+textarea {
+    background-color: #246EB9;
+    color: #fff;
+    width: 100%;
+    font-family: inherit;
+    font-size: 20px;
+    border-radius: 0px;
+    border-width:0px;
+}
+
+.submitButton{
+    text-align: center;
+}
+
+button {
+    background-color: #246EB9;
+    color: #fff;
+    padding: 10px 60px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #63D0C3;
+}
 
 body{
     background-color: #2C2e2e;
@@ -461,6 +575,59 @@ html, body {
         gap:20px;
         padding-left:10px;
         padding-right:15px;
+    }
+
+    .Heading{
+        font-size: 32px;
+    }
+
+    .Linkedin{
+        font-size:24px;
+    }
+
+    .Contacting{
+        margin:0 15px;
+    }
+
+    .Contacting h3{
+        font-size: 16px;
+    }
+
+    .myForm{
+        padding: 10px;
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .Contacting p {
+        font-size: 14px;
+        padding-left:10px;
+        font-weight: 800px;
+    }
+
+    input[type="text"] {
+        height:20px;
+        font-size: 14px;
+    }
+
+    input[type="email"] {
+        height:20px;
+        font-size: 14px;
+    }
+
+    select{
+        height:20px;
+        font-size: 14px;
+    }
+
+    option{
+        font-size: 14px;
+        height:20px;
+    }
+
+    button {
+        padding: 8px 40px ;
+        font-size: 14px;
     }
 }
 

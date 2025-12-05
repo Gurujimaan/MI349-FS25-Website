@@ -40,7 +40,44 @@
         <img class="Background" src="Images/Background.png">
         
         <main>
+            <h1 class="Heading">How to Contact Me</h1>
+            <div class="Contacting">
+                <a href="https://www.linkedin.com/in/gurmaan-singh-sandhu-673085236/">
+                    <h2 class="Linkedin">Linkedin</h2>
+                </a>
+                <h3>
+                    If you have a wish to contact me, my LinkedIn is provided above. Alternatively, you can use the form below to send me an email.
+                </h3>
+                <form name="contact" netlify class="myForm">
+                    <p>Name</p>
+                    <p id="name">
+                        <input type="text" name="name">
+                    </p>
 
+                    <p>Email</p>
+                    <p id="email">
+                        <input type="email" name="email">
+                    </p>
+
+                    <p>Reason</p>
+                    <p id="reason">
+                        <select name="reason">
+                            <option>Meet up</option>
+                            <option>Looking for a Game Developer</option>
+                            <option>Other</option>
+                        </select>
+                    </p>
+
+                    <p>Message</p>
+                    <p id="message">
+                        <textarea name="message" rows="5" cols="30"></textarea>
+                    </p>
+
+                    <p class = submitButton>
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
+            </div>
         </main>
     </body>
 </html>
